@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-import "../assets/styles/repos.styl";
+import "../assets/styles/Repos.styl";
 import loading from "../assets/images/loading.gif";
 import fork from "../assets/images/fork.png";
 
