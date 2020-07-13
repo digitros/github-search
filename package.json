@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://digitros.github.io/github-search/",
+  "homepage": "https://digitros.github.io/github-search",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.10.4",
     "babel-eslint": "^10.1.0",

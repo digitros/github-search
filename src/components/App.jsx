@@ -9,7 +9,7 @@ import "../assets/styles/App.styl";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Switch>
           <Route exact path="/" component={Home} />
