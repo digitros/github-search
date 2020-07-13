@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+.Repo {
+  border: 1px solid #000;
+  padding: 5px;
+}
+.Repo img {
+  width: 20px;
+}
+.Repo li {
+  display: flex;
+  flex-direction: row;
+}
+.Repo li a {
+  text-decoration: none;
+}
+
+.Results li {
+  list-style: none;
+}
+.User__container {
+  background: #fff;
+  width: calc(100% -2px);
+  height: 65px;
+  border: 1px solid #000;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 40% 1fr;
+}
+.User {
+  background: #fff;
+  display: flex;
+  align-content: center;
+}
+.User img {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.User h3 {
+  align-self: center;
+}
+.PageList {
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.PageList ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+  background: #dcdada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PageList ul li {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active {
+  background: #008000;
+}
+.Repos {
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Search {
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Search img {
+  width: 45px;
+  margin-bottom: 30px;
+}
+.Search form {
+  height: 30px;
+}
+.Search form input {
+  width: 350px;
+  height: 30px;
+  border: 1px solid #649e64;
+  border-radius: 20px 0 0 20px;
+  padding: 5px 10px;
+}
+.Search form button {
+  width: 80px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+}
+.Main__results {
+  background: #fff;
+  width: 95%;
+  height: 378px;
+  margin: auto;
+}
+
+.User__info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.User__info:nth-of-type(1) {
+  border-bottom: 2px solid #cecece;
+  padding: 10px;
+}
+.User__info:nth-of-type(2) {
+  padding: 10px;
+}
+.User__info:nth-of-type(3) {
+  border-top: 2px solid #cecece;
+  padding: 10px;
+}
+.User__avatar {
+  width: 100%;
+}
+.User__info ul li img {
+  height: 15px;
+  margin-right: 5px;
+}
+.User__info h2 {
+  font-weight: 300;
+  color: #808080;
+  margin-bottom: 10px;
+}
+.User__org--img {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.Aside {
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.Aside__loading {
+  justify-content: center;
+}
+.Aside__github {
+  width: 40px;
+}
+.Aside p {
+  font-size: 20px;
+}
+.Aside ul {
+  list-style: none;
+}
+
+.Home {
+  background: #2d2a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Nav__buttons {
+  width: 800px;
+  display: flex;
+}
+.Nav__buttons a {
+  text-decoration: none;
+  color: #2d2a2a;
+}
+.button {
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px 5px 0 0;
+  background: #d5d0d0;
+  align-items: center;
+  justify-content: center;
+}
+.Nav__buttons-search div:hover,
+.Nav__buttons-repos div:hover {
+  opacity: 0.5;
+}
+.Main {
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.app {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
