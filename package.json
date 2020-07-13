@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "start-all": "webpack-dev-server --open --mode development --host 10.0.0.36",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start-all": "webpack-dev-server --open --mode development --host 10.0.0.36"
   },
   "keywords": [],
   "author": "",
